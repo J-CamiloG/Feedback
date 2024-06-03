@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Page</title>
+    <link rel="stylesheet" href="/source/styles/admin.css">
+    <script src="./guardian.js" defer></script> <!-- Ajusta la ruta según tu estructura de archivos -->
+</head>
+<body>
+    <header>
+        <h1>Admin Dashboard</h1>
+    </header>
+    <main>
+        <form class="form-actualizar">
+            <label for="" >Titulo</label>
+            <input type="text" id="titulo" name="titulo" required>
+            <label for="" >descripocion</label>
+            <input type="text" id="descripcion"  required>
+            <select id="modalidad">
+                <option value="">Todas las modalidades</option>
+                <option value="Tiempo completo">Tiempo completo</option>
+                <option value="Medio tiempo">Medio tiempo</option>
+                <option value="Prácticas">Prácticas</option>
+            </select>
+            <button type="submit" id="btn-actulaizar">guardar</button>
+        </form>
+        <div>
+            <input type="text" id="busqueda" placeholder="Buscar por título...">
+            <select id="modalidad">
+                <option value="">Todas las modalidades</option>
+                <option value="Tiempo completo">Tiempo completo</option>
+                <option value="Medio tiempo">Medio tiempo</option>
+                <option value="Prácticas">Prácticas</option>
+            </select>
+            <button id="btn-filtrar">Filtrar</button>
+        </div>
+        <!-- Contenido de la página de administrador -->
+        <button id="btn-ver-trabajos">Ver trabajos</button>
+        <button id="agregar">Agregar Nuevo trabajo</button>
+        <section class="app"></section>
+
+    </main>
+    <script src="./admin.js"></script> <!-- Ajusta la ruta según tu estructura de archivos -->
+</body>
+</html>

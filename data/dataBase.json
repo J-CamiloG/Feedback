@@ -1,0 +1,35 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "username": "camilo",
+      "password": "123"
+    }
+  ],
+  "trabajos": [
+    {
+      "id": "3",
+      "titulo": "ddd",
+      "descripcion": "dddd",
+      "modalidad": "Tiempo completo"
+    },
+    {
+      "id": "4",
+      "titulo": "Analista de Datos",
+      "descripcion": "Empresa en crecimiento busca analista de datos para analizar y visualizar información...",
+      "modalidad": "Medio tiempo"
+    },
+    {
+      "id": "5",
+      "titulo": "Desarrollador Full Stack",
+      "descripcion": "Se busca desarrollador Full Stack con experiencia en tecnologías como JavaScript, Node.js y React...",
+      "modalidad": "Tiempo completo"
+    },
+    {
+      "id": "7",
+      "titulo": "Administrador de Base de Datos",
+      "descripcion": "Se requiere administrador de bases de datos con experiencia en MySQL, MongoDB y PostgreSQL...",
+      "modalidad": "Medio tiempo"
+    }
+  ]
+}
